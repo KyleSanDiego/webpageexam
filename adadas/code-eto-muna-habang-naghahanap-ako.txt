@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.572e4f51d0a4d67669784df53026b5a7?rik=lv9i04y8yl33Dg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f3%2f33%2fVanamo_Logo.png&ehk=Ix3NOUWRAegY6L3gmUWwTNm0Gee%2faq3jB0ZwGhiKFRk%3d&risl=&pid=ImgRaw&r=0" alt="Logo">
+                <span>Animal Adoption Website</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <div class="text-content">
+                <h1>Find Your New Best Friend</h1>
+                <p>Browse through our adorable animals available for adoption.</p>
+            </div>
+            <div class="image-content">
+                <img src="https://source.unsplash.com/random/600x400?animal" alt="Animal">
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-animals">
+        <div class="featured-content">
+            <div class="text-content">
+                <h2>Featured Animals</h2>
+                <p class="subtitle">Meet our loving pets waiting for a forever home.</p>
+            </div>
+            <div class="animal-grid">
+                <div class="animal">
+                    <img src="https://source.unsplash.com/random/300x200?dog" alt="Cute dog with a joyful face">
+                    <div class="animal-info">
+                        <h3>Buddy</h3>
+                        <p>3-year-old Male Labrador Retriever</p>
+                    </div>
+                </div>
+                <div class="animal">
+                    <img src="https://source.unsplash.com/random/300x200?cat" alt="Fluffy white kitten playing with a toy">
+                    <div class="animal-info">
+                        <h3>Snowflake</h3>
+                        <p>6-month-old Female Domestic Shorthair</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adoption-form">
+        <div class="form-content">
+            <div class="form-text">
+                <h2>Interested in Adoption?</h2>
+                <p>Fill out the form below to begin the adoption process.</p>
+                <form>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="image-content">
+                <img src="https://source.unsplash.com/random/600x400?pet" alt="Animal">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h1>Join Our Community</h1>
+        <p>See what others are saying about their adopted pets</p>
+        <div class="testimonial">
+            <div class="testimonial-header">
+                <img src="https://i.pinimg.com/originals/1b/6f/f8/1b6ff89148c70602ac7e586020fbbd7a.jpg" alt="User Avatar">
+                <span class="username">PetLover123</span>
+                <span class="dots">...</span>
+            </div>
+            <img src="https://source.unsplash.com/random/600x400?cat" alt="Happy cat in a cozy home">
+            <p class="testimonial-text">I adopted my furry friend from here and couldn't be happier! #AdoptDontShop</p>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-header">
+                <img src="https://th.bing.com/th/id/OIP.kPniYuWtDLk5AsNY-JiDkAAAAA?rs=1&pid=ImgDetMain" alt="User Avatar">
+                <span class="username">AnimalRescuer456</span>
+                <span class="dots">...</span>
+            </div>
+            <img src="https://source.unsplash.com/random/600x400?dog" alt="Playful puppy enjoying a sunny day">
+            <p class="testimonial-text">Rescued this little one and my heart is full. Best decision ever! #RescuePets</p>
+        </div>
+    </section>
+
+    <section id="footer-banner">
+        <div class="footer-content">
+            <p>Help Us Save Lives. Adopt, Don't Shop.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Animal Adoption Website. All Rights Reserved.</p>
+    </footer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt an Animal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.572e4f51d0a4d67669784df53026b5a7?rik=lv9i04y8yl33Dg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f3%2f33%2fVanamo_Logo.png&ehk=Ix3NOUWRAegY6L3gmUWwTNm0Gee%2faq3jB0ZwGhiKFRk%3d&risl=&pid=ImgRaw&r=0" alt="Logo">
+                <span>Animal Adoption Website</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="adopt">
+        <div class="adopt-content">
+            <h1>Interested In Adoption?</h1>
+            <h6>Fill out the form below to begin the adoption process</h6>
+            <div class="start-adopt">
+                <p>Start Adopt</p>
+            </div>
+        </div>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="address">Full Address</label>
+            <input type="text" id="address" name="address" placeholder="Enter your full address">
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="available-animals">
+        <h2>Meet our loving pets waiting for a forever home</h2>
+        <div class="animal">
+            <img src="https://source.unsplash.com/random/300x200?dog" alt="Cute dog with a joyful face">
+            <h3>Buddy</h3>
+            <p>3-year-old Male Labrador Retriever</p>
+        </div>
+        <div class="animal">
+            <img src="https://source.unsplash.com/random/300x200?cat" alt="Fluffy white kitten playing with a toy">
+            <h3>Snowflake</h3>
+            <p>6-month-old Female Domestic Shorthair</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Animal Adoption Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+CSS
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            padding-top: 70;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #FFC0CB;
+            color: #333;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed; 
+            width: 100%; 
+            top: 0; 
+            z-index: 1000; 
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            box-sizing: border-box; 
+        }
+
+        nav .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        nav .logo img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            transition: opacity 0.3s ease-in-out; 
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        #home {
+            margin-top: 80px;
+            background-color: #f9f9f9;
+        }
+
+        #home .home-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        #home .text-content {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        #home .image-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        #featured-animals {
+            background-color: #f9f9f9;
+        }
+
+        #featured-animals .featured-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        #featured-animals .text-content {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        #featured-animals .animal-grid {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .animal {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1em;
+            max-width: 300px;
+        }
+
+        .animal img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .animal-info {
+            background-color: #fff;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: -10px;
+        }
+
+        #adoption-form {
+            background-color: #f9f9f9;
+        }
+
+        #adoption-form .form-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        #adoption-form .form-text {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        #adoption-form form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        #adoption-form form label {
+            font-weight: bold;
+        }
+
+        #adoption-form form input[type="text"],
+        #adoption-form form input[type="email"],
+        #adoption-form form input[type="submit"] {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #adoption-form form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #adoption-form form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        #adoption-form .image-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        #testimonials {
+            background-color: #f9f9f9;
+            padding: 2rem 1rem;
+        }
+
+        #testimonials h1 {
+            font-size: 2rem;
+        }
+
+        #testimonials p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .testimonial {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin: 1rem auto;
+            max-width: 600px;
+            text-align: left;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-header img {
+            width: 40px; 
+            height: 40px; 
+            border-radius: 50%;
+            object-fit: cover; 
+            margin-right: 1rem;
+        }
+
+        .testimonial-header .username {
+            font-weight: bold;
+            margin-right: auto;
+        }
+
+        .testimonial-header .dots {
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .testimonial-text {
+            margin-top: 1rem;
+        }
+
+        #footer-banner {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            padding: 4rem 1rem;
+            text-align: center;
+            color: #333;
+        }
+
+        #footer-banner .footer-content {
+            background: rgba(255, 255, 255, 0.8);
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+        }
+
+        #footer-banner p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 1rem 0;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</body>
+</html>

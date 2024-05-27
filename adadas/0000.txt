@@ -1,0 +1,446 @@
+ `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.572e4f51d0a4d67669784df53026b5a7?rik=lv9i04y8yl33Dg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f3%2f33%2fVanamo_Logo.png&ehk=Ix3NOUWRAegY6L3gmUWwTNm0Gee%2faq3jB0ZwGhiKFRk%3d&risl=&pid=ImgRaw&r=0" alt="Logo">
+                <span>ANIMAL ADOPTION WEBSITE</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="form.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <div class="text-content">
+                <h1>Find Your New Best Friend</h1>
+                <p>Adopting an animal is a compassionate choice that brings joy and fulfillment. It offers a loving home to a deserving animal while enriching your life with companionship and unconditional love. The journey of adoption is not just about finding a pet; 
+                    it's about making a lifelong friend
+                     and becoming a hero in the life of an animal in need.</p>
+            </div>
+            <div class="image-content">
+                <img src="https://source.unsplash.com/random/600x400?animal" alt="Animal">
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-animals">
+        <div class="featured-content">
+            <div class="text-content">
+                <h2>Featured Animals</h2>
+                <p class="subtitle">Meet our loving pets waiting for a forever home. Welcoming all pets into your home is a celebration of the incredible diversity of the animal kingdom. Each pet, regardless of species, brings its own special joy and companionship. By creating a loving and inclusive environment, you enrich your life with the unique gifts that each animal brings, fostering a home filled with love, laughter, and endless discoveries.</p>
+            </div>
+            <div class="animal-grid">
+                <div class="animal">
+                    <img src="https://source.unsplash.com/random/300x200?dog" alt="Cute dog with a joyful face">
+                    <div class="animal-info">
+                        <h3>Buddy</h3>
+                        <p>3-year-old Male Labrador Retriever</p>
+                    </div>
+                </div>
+                <div class="animal">
+                    <img src="https://source.unsplash.com/random/300x200?cat" alt="Fluffy white kitten playing with a toy">
+                    <div class="animal-info">
+                        <h3>Snowflake</h3>
+                        <p>6-month-old Female Domestic Shorthair</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adoption-form">
+        <div class="form-content">
+            <div class="form-text">
+                <h2>Interested in Adoption?</h2>
+                <p>Fill out the form below to begin the adoption process.</p>
+                <form>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="image-content">
+                <img src="https://source.unsplash.com/random/600x400?pet" alt="Animal">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h1>Join Our Community</h1>
+        <p>See what others are saying about their adopted pets</p>
+        <div class="testimonial">
+            <div class="testimonial-header">
+                <img src="https://via.placeholder.com/40" alt="User Avatar">
+                <span class="username">PetLover123</span>
+                <span class="dots">...</span>
+            </div>
+            <img src="https://source.unsplash.com/random/600x400?cat" alt="Happy cat in a cozy home">
+            <p class="testimonial-text">I adopted my furry friend from here and couldn't be happier! #AdoptDontShop</p>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-header">
+                <img src="https://via.placeholder.com/40" alt="User Avatar">
+                <span class="username">AnimalRescuer456</span>
+                <span class="dots">...</span>
+            </div>
+            <img src="https://source.unsplash.com/random/600x400?dog" alt="Playful puppy enjoying a sunny day">
+            <p class="testimonial-text">Rescued this little one and my heart is full. Best decision ever! #RescuePets</p>
+        </div>
+    </section>
+
+    <section id="footer-banner">
+        <div class="footer-content">
+            <p>Help Us Save Lives. Adopt, Don't Shop.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>  2022 Animal Adoption Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+`form.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.572e4f51d0a4d67669784df53026b5a7?rik=lv9i04y8yl33Dg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f3%2f33%2fVanamo_Logo.png&ehk=Ix3NOUWRAegY6L3gmUWwTNm0Gee%2faq3jB0ZwGhiKFRk%3d&risl=&pid=ImgRaw&r=0" alt="Logo">
+                <span>ANIMAL ADOPTION WEBSITE</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="form.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="adoption-form">
+        <div class="form-content">
+            <h2>Interested in Adoption?</h2>
+            <p>Fill out the form below to begin the adoption process.</p>
+            <form>
+                <button type="button">Start Adopt</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="personal-information">
+        <div class="form-content">
+            <h2>Personal Information</h2>
+            <form>
+                <label for="account-type">What kind of account are you making?</label>
+                <input type="text" id="account-type" name="account-type" placeholder="What kind of account you making?">
+                
+                <div class="form-row">
+                    <label for="firstname">Firstname</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter your Firstname">
+                </div>
+                
+                <div class="form-row">
+                    <label for="lastname">Lastname</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter your Lastname">
+                </div>
+                
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                
+                <div class="form-row">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number">
+                </div>
+                
+                <label for="
+
+address">Full Address</label>
+                <input type="text" id="address" name="address" placeholder="Enter your Full Address">
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>  2022 Animal Adoption Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### `style.css`
+
+```css
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+#home .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+#home .home-content .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#home .home-content .text-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+#home .home-content .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#featured-animals .featured-content {
+    text-align: center;
+}
+
+#featured-animals .animal-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#featured-animals .animal {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+}
+
+#featured-animals .animal img {
+    width: 100%;
+    height: auto;
+}
+
+#featured-animals .animal-info {
+    padding: 1rem;
+}
+
+#featured-animals .animal-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#featured-animals .animal-info p {
+    margin: 0.5rem 0 0;
+    color: #666;
+}
+
+#footer-banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#footer-banner p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#adoption-form {
+    background-color: #f2f2f2;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#adoption-form .form-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#adoption-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#adoption-form form label {
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+#adoption-form form input[type="text"],
+#adoption-form form input[type="email"],
+#adoption-form form input[type="submit"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#adoption-form form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#adoption-form form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#personal-information {
+    background-color: #f2f2f2;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#personal-information .form-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#personal-information form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#personal-information form .form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#personal-information form label {
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+#personal-information form input[type="text"],
+#personal-information form input[type="email"],
+#personal-information form input[type="tel"],
+#personal-information form input[type="submit"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#personal-information form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#personal-information form input[type="submit"]:hover {
+    background-color: #555;
+}
+```
+
