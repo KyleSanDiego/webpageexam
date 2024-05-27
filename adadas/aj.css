@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -121,7 +121,7 @@ section {
 }
 
 .animal {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid #ddd;
@@ -259,6 +259,10 @@ section {
     line-height: 30px;
     text-align: center;
     display: grid;
+}
+.available-animals{
+    display: flex;
+    margin: inherit;
 }
 #footer-banner {
     background-image: url('https://via.placeholder.com/1200x400');
